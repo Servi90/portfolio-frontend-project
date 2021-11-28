@@ -6,6 +6,7 @@
   --border-radius: 4px;
   --padding: 20px 15px;
   --text-deco: none;
+  --small-res-font: 7px;
 }
 
 h1,
@@ -16,7 +17,7 @@ h3 {
 }
 
 h1 {
-  font-size: 74px;
+  font-size: 70px;
 }
 
 h2 {
@@ -107,4 +108,36 @@ p {
   padding: var(--padding);
   text-decoration: var(--text-deco);
   max-width: 180px;
+}
+@media (max-width: 280px) {
+  .nameBig {
+    font-size: 30px;
+  }
+  .bioIntro {
+    font-size: 26px;
+  }
+  .contact-link {
+    font-size: var(--small-res-font);
+  }
+  .about-link {
+    font-size: var(--small-res-font);
+  }
+  .yogaButton {
+    font-size: var(--small-res-font);
+  }
+  .weatherButton {
+    font-size: var(--small-res-font);
+  }
+  .yogurtButton {
+    font-size: var(--small-res-font);
+  }
+  .email-link {
+    font-size: 20px;
+  }
+  .contactSection {
+    font-size: 30px;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
 }
