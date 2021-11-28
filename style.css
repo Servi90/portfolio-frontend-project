@@ -6,7 +6,8 @@
   --border-radius: 4px;
   --padding: 20px 15px;
   --text-deco: none;
-  --small-res-font: 7px;
+  --small-res-font: 14px;
+  --small-res-bu-font: 8px;
 }
 
 h1,
@@ -109,7 +110,7 @@ p {
   text-decoration: var(--text-deco);
   max-width: 180px;
 }
-@media (max-width: 280px) {
+@media (max-width: 420px) {
   .nameBig {
     font-size: 30px;
   }
@@ -117,10 +118,10 @@ p {
     font-size: 26px;
   }
   .contact-link {
-    font-size: var(--small-res-font);
+    font-size: var(--small-res-bu-font);
   }
   .about-link {
-    font-size: var(--small-res-font);
+    font-size: var(--small-res-bu-font);
   }
   .yogaButton {
     font-size: var(--small-res-font);
@@ -137,7 +138,7 @@ p {
   .contactSection {
     font-size: 30px;
   }
-  body {
-    overflow-x: hidden !important;
+  .smallRes {
+    width: 100%;
   }
 }
